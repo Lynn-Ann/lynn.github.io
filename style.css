@@ -1,0 +1,106 @@
+body {
+  background-color: #fff7f5;
+  margin: 0px;
+  padding-bottom: 200px;
+}
+
+/*以下为导航条*/
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Helvetica;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: #fff7f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #030815;
+}
+/*以上为导航条*/
+
+h1 {
+  color: #030815;
+  font-family: Helvetica;
+  font-size: 100px;
+  margin: 100px;
+}
+
+h2 {
+  color: #030815;
+  font-family: Helvetica;
+  font-size: 50px;
+  line-height: 200px;
+  text-align: center;
+  margin-bottom: -25px;
+}
+
+h3 {
+  color: #030815;
+  font-family: Helvetica;
+  font-size: 30px;
+  margin: 75px 250px -25px;
+}
+
+h4 {
+  color: #030815;
+  font-family: Helvetica;
+  font-size: 20px;
+  margin: 75px 250px -25px;
+}
+
+h5 {
+  color: #030815b2;
+  font-family: Helvetica;
+  font-size: 14px;
+  margin: 0 250px 50px;
+  text-align: center;
+  line-height: 150%;
+}
+
+p {
+  color: #030815;
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 175%;
+  text-align: justify;
+  margin: 50px 250px 0;
+}
+
+#p1 {
+  position: relative;
+  color: #030815;
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 175%;
+  text-align: justify;
+  margin: 10px 250px 0;
+}
+
+#p1::before {
+  content: "";
+  margin-left: -1.5rem;
+  margin-top: 10px;
+  width: 7px;
+  height: 7px;
+  background: #824739;
+  border-radius: 2px 2px 2px 0;
+  position: absolute;
+  text-align: center;
+  font-size: 0.875rem;
+}
